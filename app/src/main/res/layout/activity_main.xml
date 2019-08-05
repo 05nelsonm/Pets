@@ -10,17 +10,18 @@
         tools:context=".MainActivity">
 
     <TextView
-            android:id="@+id/view_title"
+            android:textStyle="bold"
+            android:id="@+id/view_title1"
             android:layout_marginBottom="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:textSize="24sp"
-            android:text="Favorite Animals:"/>
+            android:text="Favorite Animal(s):"/>
 
     <TextView
             android:id="@+id/view_animal1"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
@@ -29,7 +30,7 @@
 
     <TextView
             android:id="@+id/view_animal2"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
@@ -38,7 +39,7 @@
 
     <TextView
             android:id="@+id/view_animal3"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
@@ -47,11 +48,32 @@
 
     <TextView
             android:id="@+id/view_animal4"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:textSize="20sp"
             android:text="Mountain Lion"/>
+
+    <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:id="@+id/view_title2"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:text="Animal(s) I wish I had:"/>
+
+    <TextView
+            android:id="@+id/view_animal_wish1"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="A chill, small dog"/>
+
 
 </LinearLayout>
